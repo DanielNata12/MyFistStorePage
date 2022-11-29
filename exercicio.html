@@ -1,0 +1,82 @@
+<html>
+<head>
+	<title>Exercicio e-commerce</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		.header{
+			text-align: center;
+			padding: 30px;
+			background-color: rgb(112, 112, 112);
+		}
+		.topnav{
+			float: none;
+			width: 100%;
+			overflow: hidden;
+			background-color: rgb(201, 201, 194);
+			padding: 14px 16px;
+		}
+        @media screen  and(max-width: 800px){
+		    .topnav a{
+			     display: inline-block;
+		}
+	    }
+		.row{
+			float: left;
+			text-align: center;
+			padding:4%;
+			width: 92%;
+			
+		}
+		.sellcard{
+			display: inline-block;
+		}
+	</style>
+	
+
+</head>
+<body>
+
+<div class="header">
+  <h1>Loja de Roupas e Acessorios</h1>
+</div>
+
+<div class="topnav a">
+  <a href="#">Home</a>
+  <a href="#">Roupas</a>
+  <a href="#">Acessorios</a>
+  <a href="#" style="float:right;"><img src="compas.png" width="20px"><span>Carrinho de compras</span></a>
+</div>
+
+<div class="row">
+	<div>
+		<div class="sellcard">
+			<img src="jaqueta.jpg" width="230px" >
+			<p class="descricao">Jaqueta de couro - Roupa</p>
+			<p class="valor">R$ 279,00</p>
+			<p class="compra">COMPRAR</p>
+		</div>
+		<div class="sellcard">
+			<img src="bone.jpg" width="230px">
+			<p class="descricao">Bone - Acessorio</p>
+			<p class="valor">R$ 79,00</p>
+			<p class="compra">COMPRAR</p>
+		</div>
+		<div class="sellcard">
+			<img src="jaqueta.jpg" width="230px">
+			<p class="descricao">Jaqueta de couro - Roupa</p>
+			<p class="valor">R$ 279,00</p>
+			<p class="compra">COMPRAR</p>
+		</div>
+		<div class="sellcard" width="230px">
+			<img src="bone.jpg">
+			<p class="descricao">Bone - Acessorio</p>
+			<p class="valor">R$ 79,00</p>
+			<p class="compra">COMPRAR</p>
+		</div>
+	</div>  
+</div>
+
+</body>
+</html>

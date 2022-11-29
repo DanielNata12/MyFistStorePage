@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(112, 112, 112);
+}
+.topnav{
+    float: none;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(201, 201, 194);
+    padding: 14px 16px;
+}
+@media screen  and(max-width: 800px){
+    .topnav a{
+         display: inline-block;
+}
+}
+.row{
+    float: left;
+    text-align: center;
+    padding:4%;
+    width: 92%;
+    
+}
+.sellcard{
+    display: inline-block;
+}
